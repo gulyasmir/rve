@@ -1,0 +1,36 @@
+.social-icon{
+  padding: 9px 18px;
+  height: 1px;
+  width:1px;
+
+}
+.icon-fb {
+  background-image: url(sprite.png);
+  background-position: -80px 0px;
+  width: 39px;
+  height: 40px;
+}
+.icon-insta {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-pin {
+  background-image: url(sprite.png);
+  background-position: -40px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-twitter {
+  background-image: url(sprite.png);
+  background-position: 0px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-vk {
+  background-image: url(sprite.png);
+  background-position: -40px -40px;
+  width: 40px;
+  height: 40px;
+}

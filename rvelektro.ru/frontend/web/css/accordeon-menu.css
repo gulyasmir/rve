@@ -1,0 +1,29 @@
+.nav_list {
+
+list-style:none;
+}
+.nav_list li {
+position:relative;
+}
+.nav_list li a {
+
+}
+.nav_list li span {
+width:0;
+height:0;
+position:absolute;
+
+}
+.nav_list li.active span {
+
+}
+.m-menu__pages .nav_list li .item_podcategory li a{
+  font-size:20px;
+  padding-left: 20px;
+
+}
+.mob-wrapp__cats  .nav_list li .item_podcategory li a {
+    padding-left: 40px;
+    font-size: 16px;
+
+}

@@ -1,0 +1,55 @@
+<?php foreach ($array_products as $array_product) { ?>
+  <?php foreach ($array_product as $product) { ?>
+<div class="col-lg-2 col-md-3 col-xs-6">
+  <div class="staff__item">
+<?= Html::a('
+
+    <div class="staff__sub-wrapp">
+      <div class="staff__photo-wrapp">
+        <img src="'.$product->img1.'" alt="">
+      </div>
+      <h3 class="staff__name title">
+    '.$product->title.'
+      </h3>
+      <p class="position">
+      '.$product->power.' Вт
+      </p>
+      <p class="position">
+      '.$product->lumen.' Лм
+      </p>
+      </div>
+
+    ', ['site/product', 'id'=> $product->id]) ?>
+</div>
+  </div>
+
+<?php } ?>
+<?php } ?>
+
+
+<div class="row">
+  <div class="col-md-7 col-xl-3 order-md-1 order-xl-1">
+    <img class="lamp-img" src="<?=$query->dopimg1?>" alt="">
+  </div>
+  <div class="col-md-7 col-xl-6 order-md-3 order-xl-2">
+    <img class="lamp-size" src="<?=$query->dopimg2?>" alt="">
+  </div>
+  <div class="col-md-5 col-xl-3 order-md-2 order-xl-3">
+    <div class="lamp-char">
+      <h3 class="lamp-char__name title">
+      <?=$query->title?>
+      </h3>
+      <div class="lamp-char__info">
+
+      </div>
+      <div class="lamp-char__buy">
+        <span class="lamp-char__price">
+      <?=$query->price?> р
+        </span>
+      <!--	<button class="lamp-char__btn" type="button">
+          Выбрать
+        </button>-->
+      </div>
+    </div>
+  </div>
+</div>
